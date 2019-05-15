@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	font-family: arial;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -116,7 +117,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #212121;
+		color: #212121
 		font-family: "Monserrat", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: regular;
@@ -160,7 +161,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #FFB546 !important;
 		}
 
 		a:active {
@@ -181,7 +182,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: orange;
+		color: black;
 		font-weight: 400;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -1785,7 +1786,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #FFB546;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -1942,8 +1943,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9bf1ff;
-			box-shadow: 0 0 0 2px #9bf1ff;
+			border-color: #FFB546;
+			box-shadow: 0 0 0 2px #FFB546;
 		}
 
 	select {
@@ -2037,14 +2038,14 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #9bf1ff;
+			border-color: #FFB546;
 			content: '\f00c';
 			color: #242943;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #9bf1ff;
+			box-shadow: 0 0 0 2px #FFB546;
 		}
 
 	input[type="radio"] + label:before {
@@ -2382,7 +2383,7 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #FFB546;
 						color: #242943 !important;
 					}
 
@@ -2521,8 +2522,9 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			/* box-shadow: inset 0 0 0 2px #FFB546; */
+			box-shadow: inset 0 0 0 2px #FFB546;
+			color: #FFB546;
 		}
 
 		input[type="submit"]:active,
@@ -2653,7 +2655,8 @@ input, select, textarea {
 		.button.primary {
 			background-color: #212121;
 			box-shadow: none;
-			color: #242943;
+			color: #FFB546;
+			border-radius: 3px;
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
@@ -2665,7 +2668,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #FFB546;
 				color: #242943 !important;
 			}
 

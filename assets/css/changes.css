@@ -1,0 +1,27 @@
+/* body {
+  font-size: 100px;
+} */
+
+
+/* .make-black {
+  color: black;
+} */
+
+#header img {
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+.body {
+  font-family: monospace;
+}
+
+.text-border {
+  border: solid 2px black !important;
+  border-radius: 3px !important;
+}
+
+.round-button {
+  /* border-radius: 3px !important; */
+}
