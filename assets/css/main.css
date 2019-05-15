@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("https://fonts.googleapis.com/css?family=Monserrat:bold,medium,regular,light,thin,600,600italic,100");
 
 /*
 	Forty by HTML5 UP
@@ -117,9 +117,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Monserrat", Helvetica, sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: regular;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
@@ -180,11 +180,14 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-weight: 600;
+	h1, h2, h4, h5, h6 {
+		color: orange;
+		font-weight: 100;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
+	}
+	h3 {
+		color: white;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
